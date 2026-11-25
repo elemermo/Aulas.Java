@@ -12,15 +12,11 @@ public class Exercícios4 {
 
         int contadorDivisores = 0;
 
-
         for (int i = 1; i <= numero; i++) {
-
             if (numero % i == 0) {
                 contadorDivisores++;
             }
         }
-
-
         if (contadorDivisores == 2) {
             System.out.println("O número " + numero + " é primo!");
         } else {

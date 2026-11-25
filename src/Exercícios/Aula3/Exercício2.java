@@ -6,13 +6,11 @@ public class Exercício2 {
         int soma = 0;
 
         while (i <= 100) {
-            // Verifica se o número é par
             if (i % 2 == 0) {
-                soma += i; // Forma correta (equivalente a: soma = soma + i)
+                soma += i;
             }
-            i++; // Incrementa o contador
+            i++;
         }
-
         System.out.println("A soma dos números pares de 1 a 100 é: " + soma);
     }
 }

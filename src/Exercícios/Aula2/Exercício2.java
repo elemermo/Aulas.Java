@@ -12,9 +12,9 @@ public class Exercício2 {
         double percentualDesconto = 0.0;
 
         if (valorOriginal > 100) {
-            percentualDesconto = 0.10; // 10% de desconto
+            percentualDesconto = 0.10;
         }else {
-            percentualDesconto = 0.0;  // Sem desconto
+            percentualDesconto = 0.0;
         }
 
         double valorDesconto = valorOriginal * percentualDesconto;
